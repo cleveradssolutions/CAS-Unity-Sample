@@ -40,8 +40,7 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
-    implementation 'com.cleversolutions.ads:cas-promo:1.6.2+' // Assets/CleverAdsSolutions/Editor/CASPromoAndroidDependencies.xml:8
-    implementation 'com.cleversolutions.ads:cas-sdk-general:1.6.2+' // Assets/CleverAdsSolutions/Editor/CASGeneralAndroidDependencies.xml:14
+    implementation 'com.cleversolutions.ads:cas-sdk-general:1.9.3' // Assets/CleverAdsSolutions/Editor/CASGeneralAndroidDependencies.xml:14
 // Android Resolver Dependencies End
 **DEPS**}
 
