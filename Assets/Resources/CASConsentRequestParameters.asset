@@ -26,4 +26,8 @@ MonoBehaviour:
   privacyPolicyUrl:
   - id: 0
     text: https://cleveradssolutions.com/privacy-policy
-  termsOfUseUrl: []
+  termsOfUseUrl:
+  - id: 11
+    text: https://own.terms.of.use.url/android
+  - id: 8
+    text: https://own.terms.of.use.url/ios

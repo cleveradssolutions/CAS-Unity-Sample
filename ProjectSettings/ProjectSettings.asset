@@ -168,8 +168,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.prototestmode.Test2019
-    iPhone: com.protosampleapp.Test2019
+    Android: com.cleversolutions.ads.SampleApp
+    iPhone: com.cleversolutions.ads.SampleApp
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
