@@ -8,25 +8,10 @@
             url "https://maven.google.com"
         }
         maven {
-            url "https://dl.bintray.com/cleveradssolutions/CAS-Android" // Assets/CleverAdsSolutions/Editor/CASGeneralAndroidDependencies.xml:14, Assets/CleverAdsSolutions/Editor/CASPromoAndroidDependencies.xml:8
+            url "https://dl.bintray.com/ironsource-mobile/android-sdk" // Assets/CleverAdsSolutions/Editor/CASAndroidMixedAudienceDependencies.xml:9
         }
         maven {
-            url "https://adcolony.bintray.com/AdColony" // Assets/CleverAdsSolutions/Editor/CASGeneralAndroidDependencies.xml:14
-        }
-        maven {
-            url "https://dl.bintray.com/ironsource-mobile/android-sdk" // Assets/CleverAdsSolutions/Editor/CASGeneralAndroidDependencies.xml:14
-        }
-        maven {
-            url "https://maven.google.com" // Assets/CleverAdsSolutions/Editor/CASGeneralAndroidDependencies.xml:14
-        }
-        maven {
-            url "https://chartboostmobile.bintray.com/Chartboost" // Assets/CleverAdsSolutions/Editor/CASGeneralAndroidDependencies.xml:14
-        }
-        maven {
-            url "http://dl.bintray.com/gabrielcoman/maven" // Assets/CleverAdsSolutions/Editor/CASGeneralAndroidDependencies.xml:14
-        }
-        maven {
-            url "http://dl.bintray.com/superawesome/SuperAwesomeSDK" // Assets/CleverAdsSolutions/Editor/CASGeneralAndroidDependencies.xml:14
+            url "http://dl.bintray.com/superawesome/SuperAwesomeSDK" // Assets/CleverAdsSolutions/Editor/CASAndroidMixedAudienceDependencies.xml:9
         }
         mavenLocal()
         jcenter()
@@ -40,7 +25,9 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
-    implementation 'com.cleversolutions.ads:cas-sdk-general:1.9.3' // Assets/CleverAdsSolutions/Editor/CASGeneralAndroidDependencies.xml:14
+    implementation 'com.cleveradssolutions:cas:2.1.7' // Assets/CleverAdsSolutions/Editor/CASAndroidMixedAudienceDependencies.xml:9
+    implementation 'com.google.android.exoplayer:exoplayer:2.12.1' // Assets/CleverAdsSolutions/Editor/CASAndroidMixedAudienceDependencies.xml:13
+    implementation 'tv.superawesome.sdk.publisher:superawesome:7.2.19+' // Assets/CleverAdsSolutions/Editor/CASAndroidMixedAudienceDependencies.xml:11
 // Android Resolver Dependencies End
 **DEPS**}
 

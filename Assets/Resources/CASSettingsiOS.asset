@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   testAdMode: 1
   managerIds:
-  - 
+  - demo
   allowedAdFlags: 15
   audienceTagged: 0
   bannerSize: 1

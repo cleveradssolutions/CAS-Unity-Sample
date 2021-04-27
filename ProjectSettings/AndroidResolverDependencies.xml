@@ -1,14 +1,16 @@
 <dependencies>
   <packages>
-    <package>com.cleversolutions.ads:cas-promo:1.6.2+</package>
-    <package>com.cleversolutions.ads:cas-sdk-general:1.6.2+</package>
+    <package>com.cleveradssolutions:cas:2.1.7</package>
+    <package>com.google.android.exoplayer:exoplayer:2.12.1</package>
+    <package>tv.superawesome.sdk.publisher:superawesome:7.2.19+</package>
   </packages>
   <files />
   <settings>
     <setting name="androidAbis" value="armeabi-v7a" />
-    <setting name="bundleId" value="com.prototestmode.Test2019" />
+    <setting name="bundleId" value="com.cleversolutions.ads.SampleApp" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradlePropertiesTemplateEnabled" value="True" />
     <setting name="gradleTemplateEnabled" value="True" />
     <setting name="installAndroidPackages" value="True" />
     <setting name="localMavenRepoDir" value="Assets/GeneratedLocalRepo" />

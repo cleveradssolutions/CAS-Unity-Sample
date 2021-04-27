@@ -1,22 +1,22 @@
 {
   "dependencies": {
     "com.cleversolutions.ads.consent.unity": {
-      "version": "https://github.com/cleveradssolutions/CAS-Unity-Consent.git#1.2.1",
+      "version": "https://github.com/cleveradssolutions/CAS-Unity-Consent.git#1.2.4",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.cleversolutions.ads.unity": "2.0.0"
+        "com.cleversolutions.ads.unity": "2.0.1"
       },
-      "hash": "586b012255b25437b0327192efd198799f0b2182"
+      "hash": "296061bdb50f3fc1e0de4c9b800e446e3c291145"
     },
     "com.cleversolutions.ads.unity": {
-      "version": "https://github.com/cleveradssolutions/CAS-Unity.git#2.0.1",
+      "version": "https://github.com/cleveradssolutions/CAS-Unity.git#2.1.7",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.google.external-dependency-manager": "1.2.164"
       },
-      "hash": "73f4db92bdad5af2d325f33cb7513858a98fffe6"
+      "hash": "acffd893e723eec4cb3beec1282f267c39c6fddb"
     },
     "com.google.external-dependency-manager": {
       "version": "1.2.164",
