@@ -1,29 +1,20 @@
 {
   "dependencies": {
     "com.cleversolutions.ads.consent.unity": {
-      "version": "https://github.com/cleveradssolutions/CAS-Unity-Consent.git#1.2.4",
+      "version": "https://github.com/cleveradssolutions/CAS-Unity-Consent.git#1.2.5",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.cleversolutions.ads.unity": "2.0.1"
+        "com.cleversolutions.ads.unity": "2.2.2"
       },
-      "hash": "296061bdb50f3fc1e0de4c9b800e446e3c291145"
+      "hash": "5a3e33814eff7515059e8c0704ccde3f8c92e701"
     },
     "com.cleversolutions.ads.unity": {
-      "version": "https://github.com/cleveradssolutions/CAS-Unity.git#2.1.7",
+      "version": "https://github.com/cleveradssolutions/CAS-Unity.git#2.3.0",
       "depth": 0,
       "source": "git",
-      "dependencies": {
-        "com.google.external-dependency-manager": "1.2.164"
-      },
-      "hash": "acffd893e723eec4cb3beec1282f267c39c6fddb"
-    },
-    "com.google.external-dependency-manager": {
-      "version": "1.2.164",
-      "depth": 1,
-      "source": "registry",
       "dependencies": {},
-      "url": "https://unityregistry-pa.googleapis.com"
+      "hash": "65fbeb3d2a7f3fc58852174c617da0eba23f0d93"
     },
     "com.unity.collab-proxy": {
       "version": "1.2.16",

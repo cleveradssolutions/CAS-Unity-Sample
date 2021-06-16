@@ -12,6 +12,11 @@ public class SampleController : MonoBehaviour
     public Text rewardedStatus;
     public IMediationManager manager;
 
+    public Text appReturnStatus;
+    public Text appReturnButtonText;
+
+    private bool isAppReturnEnable = false;
+
     public void Start()
     {
         // -- Privacy Laws (Optional):
@@ -73,6 +78,24 @@ public class SampleController : MonoBehaviour
             manager.ShowAd( AdType.Rewarded );
         else
             Debug.LogError( "Rewarded Video Ad are not ready. Please try again later." );
+    }
+
+    public void ChangeAppReturnState()
+    {
+        if (isAppReturnEnable)
+        {
+            appReturnStatus.text = "DISABLED";
+            appReturnButtonText.text = "ENABLE";
+            manager.SetAppReturnAdsEnabled( false );
+            isAppReturnEnable = false;
+        }
+        else
+        {
+            appReturnStatus.text = "ENABLED";
+            appReturnButtonText.text = "DISABLE";
+            manager.SetAppReturnAdsEnabled( true );
+            isAppReturnEnable = true;
+        }
     }
 
     private void OnRefreshStatus()

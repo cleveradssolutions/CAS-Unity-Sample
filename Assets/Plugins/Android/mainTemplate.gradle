@@ -8,10 +8,10 @@
             url "https://maven.google.com"
         }
         maven {
-            url "https://dl.bintray.com/ironsource-mobile/android-sdk" // Assets/CleverAdsSolutions/Editor/CASAndroidMixedAudienceDependencies.xml:9
+            url "https://android-sdk.is.com/" // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:9
         }
         maven {
-            url "http://dl.bintray.com/superawesome/SuperAwesomeSDK" // Assets/CleverAdsSolutions/Editor/CASAndroidMixedAudienceDependencies.xml:9
+            url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea" // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:9
         }
         mavenLocal()
         jcenter()
@@ -25,9 +25,8 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
-    implementation 'com.cleveradssolutions:cas:2.1.7' // Assets/CleverAdsSolutions/Editor/CASAndroidMixedAudienceDependencies.xml:9
-    implementation 'com.google.android.exoplayer:exoplayer:2.12.1' // Assets/CleverAdsSolutions/Editor/CASAndroidMixedAudienceDependencies.xml:13
-    implementation 'tv.superawesome.sdk.publisher:superawesome:7.2.19+' // Assets/CleverAdsSolutions/Editor/CASAndroidMixedAudienceDependencies.xml:11
+    implementation 'com.cleveradssolutions:cas:2.3.0' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:9
+    implementation 'com.google.android.exoplayer:exoplayer:2.12.1' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:11
 // Android Resolver Dependencies End
 **DEPS**}
 

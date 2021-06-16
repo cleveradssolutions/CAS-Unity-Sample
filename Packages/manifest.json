@@ -1,16 +1,16 @@
 {
-  "scopedRegistries": [
-    {
-      "name": "Game Package Registry by Google",
-      "url": "https://unityregistry-pa.googleapis.com",
-      "scopes": [
-        "com.google"
-      ]
-    }
+"scopedRegistries": [
+  {
+    "name": "Game Package Registry by Google",
+    "url": "https://unityregistry-pa.googleapis.com",
+    "scopes": [
+      "com.google"
+    ]
+  }
   ],
   "dependencies": {
-    "com.cleversolutions.ads.consent.unity": "https://github.com/cleveradssolutions/CAS-Unity-Consent.git#1.2.4",
-    "com.cleversolutions.ads.unity": "https://github.com/cleveradssolutions/CAS-Unity.git#2.1.7",
+    "com.cleversolutions.ads.unity": "https://github.com/cleveradssolutions/CAS-Unity.git#2.3.0",
+    "com.cleversolutions.ads.consent.unity": "https://github.com/cleveradssolutions/CAS-Unity-Consent.git#1.2.5",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",
     "com.unity.ide.vscode": "1.2.1",
