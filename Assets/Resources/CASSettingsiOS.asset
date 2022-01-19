@@ -15,13 +15,13 @@ MonoBehaviour:
   testAdMode: 1
   managerIds:
   - demo
-  allowedAdFlags: 15
+  allowedAdFlags: 7
   audienceTagged: 0
   bannerSize: 1
   bannerRefresh: 30
   interstitialInterval: 0
   loadingMode: 2
   debugMode: 1
-  trackLocationEnabled: 0
+  trackLocationEnabled: 1
   analyticsCollectionEnabled: 0
   interWhenNoRewardedAd: 1

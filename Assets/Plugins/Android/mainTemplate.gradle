@@ -8,10 +8,10 @@
             url "https://maven.google.com"
         }
         maven {
-            url "https://android-sdk.is.com/" // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:9
+            url "https://android-sdk.is.com/" // Assets/CleverAdsSolutions/Editor/CASAndroidFamiliesAdsDependencies.xml:11
         }
         maven {
-            url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea" // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:9
+            url "https://aa-sdk.s3-eu-west-1.amazonaws.com/android_repo" // Assets/CleverAdsSolutions/Editor/CASAndroidFamiliesAdsDependencies.xml:20
         }
         mavenLocal()
         jcenter()
@@ -25,8 +25,15 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
-    implementation 'com.cleveradssolutions:cas:2.3.0' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:9
-    implementation 'com.google.android.exoplayer:exoplayer:2.12.1' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:11
+    implementation 'com.adcolony:sdk:4.6.5+' // Assets/CleverAdsSolutions/Editor/CASAndroidFamiliesAdsDependencies.xml:12
+    implementation 'com.applovin:applovin-sdk:11.0.0+' // Assets/CleverAdsSolutions/Editor/CASAndroidFamiliesAdsDependencies.xml:14
+    implementation 'com.cleveradssolutions:cas-families:2.6.2' // Assets/CleverAdsSolutions/Editor/CASAndroidFamiliesAdsDependencies.xml:4
+    implementation 'com.google.android.gms:play-services-ads:20.5.0+' // Assets/CleverAdsSolutions/Editor/CASAndroidFamiliesAdsDependencies.xml:5
+    implementation 'com.inmobi.monetization:inmobi-ads:10.0.1+' // Assets/CleverAdsSolutions/Editor/CASAndroidFamiliesAdsDependencies.xml:15
+    implementation 'com.ironsource.sdk:mediationsdk:7.1.14' // Assets/CleverAdsSolutions/Editor/CASAndroidFamiliesAdsDependencies.xml:11
+    implementation 'com.unity3d.ads:unity-ads:4.0.0+' // Assets/CleverAdsSolutions/Editor/CASAndroidFamiliesAdsDependencies.xml:6
+    implementation 'com.vungle:publisher-sdk-android:6.10.3+' // Assets/CleverAdsSolutions/Editor/CASAndroidFamiliesAdsDependencies.xml:13
+    implementation 'tv.superawesome.sdk.publisher:superawesome:8.1.6' // Assets/CleverAdsSolutions/Editor/CASAndroidFamiliesAdsDependencies.xml:20
 // Android Resolver Dependencies End
 **DEPS**}
 
@@ -67,7 +74,10 @@ android {
     }
 
     aaptOptions {
+        noCompress = ['.ress', '.resource', '.obb'] + unityStreamingAssets.tokenize(', ')
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
     }**PACKAGING_OPTIONS**
-}**REPOSITORIES****SOURCE_BUILD_SETUP**
+}**REPOSITORIES**
+**IL_CPP_BUILD_SETUP**
+**SOURCE_BUILD_SETUP**
 **EXTERNAL_SOURCES**

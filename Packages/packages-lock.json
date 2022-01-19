@@ -1,37 +1,40 @@
 {
   "dependencies": {
     "com.cleversolutions.ads.consent.unity": {
-      "version": "https://github.com/cleveradssolutions/CAS-Unity-Consent.git#1.2.5",
+      "version": "https://github.com/cleveradssolutions/CAS-Unity-Consent.git#2.0.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.cleversolutions.ads.unity": "2.2.2"
+        "com.cleversolutions.ads.unity": "2.6.1"
       },
-      "hash": "5a3e33814eff7515059e8c0704ccde3f8c92e701"
+      "hash": "7fa606968dc326384abaa6cbad42ec18e9a5d2b8"
     },
     "com.cleversolutions.ads.unity": {
-      "version": "https://github.com/cleveradssolutions/CAS-Unity.git#2.3.0",
+      "version": "https://github.com/cleveradssolutions/CAS-Unity.git#2.6.2",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "65fbeb3d2a7f3fc58852174c617da0eba23f0d93"
+      "hash": "5c9e03f04f34d97c1e68cbc7bb5bbc2facb44ec4"
     },
     "com.unity.collab-proxy": {
-      "version": "1.2.16",
+      "version": "1.15.4",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0",
+        "com.unity.services.core": "1.0.1"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
-      "version": "1.0.0",
+      "version": "1.0.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "1.1.4",
+      "version": "2.0.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -39,26 +42,51 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.ide.visualstudio": {
+      "version": "2.0.12",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.9"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ide.vscode": {
-      "version": "1.2.1",
+      "version": "1.2.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.core": {
+      "version": "1.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.test-framework": {
-      "version": "1.1.16",
+      "version": "1.1.29",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.ext.nunit": "1.0.0",
+        "com.unity.ext.nunit": "1.0.6",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "2.1.1",
+      "version": "3.0.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -67,10 +95,15 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.2.16",
+      "version": "1.4.8",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.director": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
@@ -215,6 +248,18 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.uielementsnative": "1.0.0"
+      }
+    },
+    "com.unity.modules.uielementsnative": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       }

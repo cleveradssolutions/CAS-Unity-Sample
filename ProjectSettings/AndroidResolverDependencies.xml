@@ -1,12 +1,19 @@
 <dependencies>
   <packages>
-    <package>com.cleveradssolutions:cas:2.3.0</package>
-    <package>com.google.android.exoplayer:exoplayer:2.12.1</package>
+    <package>com.adcolony:sdk:4.6.5+</package>
+    <package>com.applovin:applovin-sdk:11.0.0+</package>
+    <package>com.cleveradssolutions:cas-families:2.6.2</package>
+    <package>com.google.android.gms:play-services-ads:20.5.0+</package>
+    <package>com.inmobi.monetization:inmobi-ads:10.0.1+</package>
+    <package>com.ironsource.sdk:mediationsdk:7.1.14</package>
+    <package>com.unity3d.ads:unity-ads:4.0.0+</package>
+    <package>com.vungle:publisher-sdk-android:6.10.3+</package>
+    <package>tv.superawesome.sdk.publisher:superawesome:8.1.6</package>
   </packages>
   <files />
   <settings>
     <setting name="androidAbis" value="armeabi-v7a" />
-    <setting name="bundleId" value="com.cleversolutions.ads.SampleApp" />
+    <setting name="bundleId" value="com.DefaultCompany.Test2019" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradlePropertiesTemplateEnabled" value="True" />

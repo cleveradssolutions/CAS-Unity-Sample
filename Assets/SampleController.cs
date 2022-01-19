@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using CAS;
+using CAS.UserConsent;
+using System.Collections.Generic;
 
 public class SampleController : MonoBehaviour
 {
@@ -17,6 +19,8 @@ public class SampleController : MonoBehaviour
 
     private bool isAppReturnEnable = false;
 
+    private IAdView bannerView;
+
     public void Start()
     {
         // -- Privacy Laws (Optional):
@@ -29,11 +33,6 @@ public class SampleController : MonoBehaviour
         // -- Create manager:
         manager = MobileAds.BuildManager().Initialize();
 
-        // -- Configuring Banner Ad
-        // Init Banner Size can be selected in Assets/CleverAdsSolutions/Settings
-        //manager.bannerSize = AdSize.AdaptiveBanner; 
-        manager.bannerPosition = AdPosition.BottomCenter;
-
         // -- Subscribe to CAS events:
         manager.OnRewardedAdCompleted += RewardedSuccessful;
         // Any other callbacks from IMediationManager
@@ -42,26 +41,30 @@ public class SampleController : MonoBehaviour
         versionText.text = MobileAds.GetSDKVersion();
 
         InvokeRepeating( "OnRefreshStatus", 1.0f, 1.0f );
-    }
 
+        bannerView = manager.GetAdView( AdSize.Banner );
+        ShowBanner();
+    }
+    
     public void ShowBanner()
     {
-        manager.ShowAd( AdType.Banner );
+        bannerView.SetActive( true );
     }
 
     public void HideBanner()
     {
-        manager.HideBanner();
+        bannerView.SetActive( false );
     }
 
     public void SetBannerPosition( int positionEnum )
     {
-        manager.bannerPosition = ( AdPosition )positionEnum;
+        bannerView.position = ( AdPosition )positionEnum;
     }
 
     public void SetBannerSize( int sizeID )
     {
-        manager.bannerSize = ( AdSize )sizeID;
+        bannerView = manager.GetAdView( ( AdSize )sizeID );
+        ShowBanner(); 
     }
 
     public void ShowInterstitial()
