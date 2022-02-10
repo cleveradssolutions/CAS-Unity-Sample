@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dependencies>
   <androidPackages>
-    <androidPackage spec="com.cleveradssolutions:cas-families:2.6.2" version="2.6.2"/>
+    <androidPackage spec="com.cleveradssolutions:cas-families:2.6.3" version="2.6.3"/>
     <androidPackage spec="com.google.android.gms:play-services-ads:20.5.0+" version="20.5.0+"/>
     <androidPackage spec="com.unity3d.ads:unity-ads:4.0.0+" version="4.0.0+"/>
     <androidPackage spec="com.ironsource.sdk:mediationsdk:7.1.14" version="7.1.14">
@@ -12,7 +12,7 @@
     <androidPackage spec="com.adcolony:sdk:4.6.5+" version="4.6.5+"/>
     <androidPackage spec="com.vungle:publisher-sdk-android:6.10.3+" version="6.10.3+"/>
     <androidPackage spec="com.applovin:applovin-sdk:11.0.0+" version="11.0.0+"/>
-    <androidPackage spec="com.inmobi.monetization:inmobi-ads:10.0.1+" version="10.0.1+"/>
+    <androidPackage spec="com.inmobi.monetization:inmobi-ads:10.0.2+" version="10.0.2+"/>
     <androidPackage spec="tv.superawesome.sdk.publisher:superawesome:8.1.6" version="8.1.6">
       <repositories>
         <repository>https://aa-sdk.s3-eu-west-1.amazonaws.com/android_repo</repository>

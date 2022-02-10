@@ -2,9 +2,9 @@
   <packages>
     <package>com.adcolony:sdk:4.6.5+</package>
     <package>com.applovin:applovin-sdk:11.0.0+</package>
-    <package>com.cleveradssolutions:cas-families:2.6.2</package>
+    <package>com.cleveradssolutions:cas-families:2.6.3</package>
     <package>com.google.android.gms:play-services-ads:20.5.0+</package>
-    <package>com.inmobi.monetization:inmobi-ads:10.0.1+</package>
+    <package>com.inmobi.monetization:inmobi-ads:10.0.2+</package>
     <package>com.ironsource.sdk:mediationsdk:7.1.14</package>
     <package>com.unity3d.ads:unity-ads:4.0.0+</package>
     <package>com.vungle:publisher-sdk-android:6.10.3+</package>

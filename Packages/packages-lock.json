@@ -10,11 +10,11 @@
       "hash": "7fa606968dc326384abaa6cbad42ec18e9a5d2b8"
     },
     "com.cleversolutions.ads.unity": {
-      "version": "https://github.com/cleveradssolutions/CAS-Unity.git#2.6.2",
+      "version": "https://github.com/cleveradssolutions/CAS-Unity.git#2.6.3",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "5c9e03f04f34d97c1e68cbc7bb5bbc2facb44ec4"
+      "hash": "c7da7715034e8e4816ac61f5a0db7a8981d06fbf"
     },
     "com.unity.collab-proxy": {
       "version": "1.15.4",
