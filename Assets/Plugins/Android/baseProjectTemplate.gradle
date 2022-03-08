@@ -18,8 +18,8 @@ allprojects {
     }
 
     repositories {**ARTIFACTORYREPOSITORY**
+        mavenCentral()
         google()
-        jcenter()
         flatDir {
             dirs "${project(':unityLibrary').projectDir}/libs"
         }

@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd2f38c563828458c8e900006c010cd2, type: 3}
   m_Name: CASSettingsAndroid
   m_EditorClassIdentifier: 
-  testAdMode: 0
+  testAdMode: 1
   managerIds:
-  - com.cleversolutions.ads.SampleApp
+  - demo
   allowedAdFlags: 23
-  audienceTagged: 0
+  audienceTagged: 2
   bannerSize: 0
   bannerRefresh: 30
-  interstitialInterval: 0
+  interstitialInterval: 30
   loadingMode: 2
-  debugMode: 1
+  debugMode: 0
   trackLocationEnabled: 0
   analyticsCollectionEnabled: 0
-  interWhenNoRewardedAd: 1
+  interWhenNoRewardedAd: 0

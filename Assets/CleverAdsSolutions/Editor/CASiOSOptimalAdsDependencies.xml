@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dependencies>
   <iosPods>
-    <iosPod name="CleverAdsSolutions-SDK/Optimal" version="2.6.3"/>
-    <iosPod name="Google-Mobile-Ads-SDK" version="~> 8.13"/>
-    <iosPod name="UnityAds" version="~> 4.0.0"/>
-    <iosPod name="IronSourceSDK" version="~> 7.1.14"/>
+    <iosPod name="CleverAdsSolutions-SDK/Optimal" version="2.6.6"/>
+    <iosPod name="Google-Mobile-Ads-SDK" version="~> 9.1"/>
+    <iosPod name="UnityAds" version="~> 4.0.1"/>
+    <iosPod name="IronSourceSDK" version="~> 7.2.1"/>
     <iosPod name="AdColony" version="~> 4.7.2"/>
-    <iosPod name="VungleSDK-iOS" version="~> 6.10.5"/>
-    <iosPod name="AppLovinSDK" version="~> 11.0.0"/>
+    <iosPod name="VungleSDK-iOS" version="~> 6.10.6"/>
+    <iosPod name="AppLovinSDK" version="~> 11.2.1"/>
     <iosPod name="InMobiSDK/Core" version="~> 10.0.2"/>
-    <iosPod name="MintegralAdSDK/BidBannerAd" version="~> 7.0.6"/>
-    <iosPod name="MintegralAdSDK/BidInterstitialVideoAd" version="~> 7.0.6"/>
-    <iosPod name="MintegralAdSDK/BidRewardVideoAd" version="~> 7.0.6"/>
-    <iosPod name="Ads-Global/BUAdSDK" version="~> 4.2.0.4"/>
-    <iosPod name="Ads-Global/Domestic" version="~> 4.2.0.4"/>
+    <iosPod name="MintegralAdSDK/BidBannerAd" version="~> 7.1.0"/>
+    <iosPod name="MintegralAdSDK/BidInterstitialVideoAd" version="~> 7.1.0"/>
+    <iosPod name="MintegralAdSDK/BidRewardVideoAd" version="~> 7.1.0"/>
+    <iosPod name="Ads-Global/BUAdSDK" version="~> 4.3.0.2"/>
+    <iosPod name="Ads-Global/Domestic" version="~> 4.3.0.2"/>
     <iosPod name="TapjoySDK" version="~> 12.9.0"/>
-    <iosPod name="myTargetSDK" version="~> 5.14.4"/>
+    <iosPod name="myTargetSDK" version="~> 5.15.0"/>
     <iosPod name="FBAudienceNetwork" version="~> 6.9.0"/>
-    <iosPod name="CleverAdsSolutions-Base" version="2.6.3" addToAllTargets="true">
+    <iosPod name="CleverAdsSolutions-Base" version="2.6.6" addToAllTargets="true">
       <sources>
         <source>https://github.com/CocoaPods/Specs.git</source>
         <source>https://github.com/cleveradssolutions/CAS-Specs.git</source>

@@ -1,14 +1,18 @@
 <dependencies>
   <packages>
     <package>com.adcolony:sdk:4.6.5+</package>
-    <package>com.applovin:applovin-sdk:11.0.0+</package>
-    <package>com.cleveradssolutions:cas-families:2.6.3</package>
-    <package>com.google.android.gms:play-services-ads:20.5.0+</package>
-    <package>com.inmobi.monetization:inmobi-ads:10.0.2+</package>
-    <package>com.ironsource.sdk:mediationsdk:7.1.14</package>
-    <package>com.unity3d.ads:unity-ads:4.0.0+</package>
-    <package>com.vungle:publisher-sdk-android:6.10.3+</package>
-    <package>tv.superawesome.sdk.publisher:superawesome:8.1.6</package>
+    <package>com.applovin:applovin-sdk:11.2.2+</package>
+    <package>com.cleveradssolutions:cas:2.6.6</package>
+    <package>com.cleveradssolutions:mintegral:16.0.21.0</package>
+    <package>com.facebook.android:audience-network-sdk:6.8.0+</package>
+    <package>com.google.android.gms:play-services-ads:20.6.0+</package>
+    <package>com.inmobi.monetization:inmobi-ads:10.0.3+</package>
+    <package>com.ironsource.sdk:mediationsdk:7.2.1+</package>
+    <package>com.my.target:mytarget-sdk:5.15.0+</package>
+    <package>com.pangle.global:ads-sdk:4.2.5.2</package>
+    <package>com.tapjoy:tapjoy-android-sdk:12.9.1</package>
+    <package>com.unity3d.ads:unity-ads:4.0.1+</package>
+    <package>com.vungle:publisher-sdk-android:6.10.4+</package>
   </packages>
   <files />
   <settings>
