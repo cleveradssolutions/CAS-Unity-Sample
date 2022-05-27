@@ -13,12 +13,10 @@ MonoBehaviour:
   m_Name: CASConsentRequestParameters
   m_EditorClassIdentifier: 
   showInEditor: 1
-  withAudienceDefinition: 1
+  withAudienceDefinition: 0
   withDeclineOption: 0
   withMediationSettings: 1
   withRequestTrackingTransparency: 1
-  trackingUsageDescription: Your data will be used to provide you a better and personalized
-    ad experience.
   uiPrefab: {fileID: 6378617394226191214, guid: 7d5e0316681d1474ab5f043167c4a559,
     type: 3}
   settingsTogglePrefab: {fileID: 12792720823157484, guid: 49ee03b086a184e5b9a50c9d48206556,

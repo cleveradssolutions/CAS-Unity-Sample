@@ -16,12 +16,12 @@ MonoBehaviour:
   managerIds:
   - demo
   allowedAdFlags: 7
-  audienceTagged: 0
-  bannerSize: 1
+  audienceTagged: 2
+  bannerSize: 0
   bannerRefresh: 30
-  interstitialInterval: 0
+  interstitialInterval: 30
   loadingMode: 2
-  debugMode: 1
-  trackLocationEnabled: 1
+  debugMode: 0
+  trackLocationEnabled: 0
   analyticsCollectionEnabled: 0
-  interWhenNoRewardedAd: 1
+  interWhenNoRewardedAd: 0

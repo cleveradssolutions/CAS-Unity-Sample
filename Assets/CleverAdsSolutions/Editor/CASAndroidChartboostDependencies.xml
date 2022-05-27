@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+  <androidPackages>
+    <androidPackage spec="com.cleveradssolutions:chartboost:8.4.3.0" version="8.4.3.0"/>
+    <androidPackage spec="com.chartboost:chartboost-sdk:8.4.3" version="8.4.3"/>
+  </androidPackages>
+</dependencies>

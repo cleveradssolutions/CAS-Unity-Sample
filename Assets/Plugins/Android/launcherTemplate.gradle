@@ -4,7 +4,8 @@ apply plugin: 'com.android.application'
 
 dependencies {
     implementation project(':unityLibrary')
-    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.multidex:multidex:2.0.1' // Added by CAS settings
+    implementation 'com.google.android.exoplayer:exoplayer:2.13.3' // Added by CAS settings
     }
 
 android {
@@ -16,12 +17,8 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
-	packagingOptions {
-        exclude 'META-INF/proguard/androidx-annotations.pro'
-	}
-
     defaultConfig {
-        multiDexEnabled true
+        multiDexEnabled true // Enabled by CAS settings
         minSdkVersion **MINSDKVERSION**
         targetSdkVersion **TARGETSDKVERSION**
         applicationId '**APPLICATIONID**'

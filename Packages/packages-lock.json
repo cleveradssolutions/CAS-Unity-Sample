@@ -1,27 +1,26 @@
 {
   "dependencies": {
     "com.cleversolutions.ads.consent.unity": {
-      "version": "https://github.com/cleveradssolutions/CAS-Unity-Consent.git#2.0.0",
+      "version": "https://github.com/cleveradssolutions/CAS-Unity-Consent.git#2.0.1",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.cleversolutions.ads.unity": "2.6.1"
+        "com.cleversolutions.ads.unity": "2.7.2"
       },
-      "hash": "7fa606968dc326384abaa6cbad42ec18e9a5d2b8"
+      "hash": "ad8e0494772eaf4c0ed42c2635320dd7606f7b88"
     },
     "com.cleversolutions.ads.unity": {
-      "version": "https://github.com/cleveradssolutions/CAS-Unity.git#2.6.6",
+      "version": "https://github.com/cleveradssolutions/CAS-Unity.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "9e22de98dcfbd5995665eeaa7a82c997ae937b4b"
+      "hash": "74cc9eee30bad34b868f4f4b21d26c29bea931bf"
     },
     "com.unity.collab-proxy": {
-      "version": "1.15.4",
+      "version": "1.15.15",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "2.0.0",
         "com.unity.services.core": "1.0.1"
       },
       "url": "https://packages.unity.com"
@@ -43,7 +42,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.12",
+      "version": "2.0.14",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -52,15 +51,15 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.4",
+      "version": "1.2.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.nuget.newtonsoft-json": {
-      "version": "2.0.0",
-      "depth": 1,
+    "com.unity.mobile.android-logcat": {
+      "version": "1.2.3",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -75,7 +74,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.29",
+      "version": "1.1.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {

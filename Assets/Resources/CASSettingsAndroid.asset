@@ -15,7 +15,7 @@ MonoBehaviour:
   testAdMode: 1
   managerIds:
   - demo
-  allowedAdFlags: 23
+  allowedAdFlags: 7
   audienceTagged: 2
   bannerSize: 0
   bannerRefresh: 30

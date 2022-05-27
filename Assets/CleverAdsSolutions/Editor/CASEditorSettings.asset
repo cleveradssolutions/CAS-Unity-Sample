@@ -14,8 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoCheckForUpdatesEnabled: 1
   delayAppMeasurementGADInit: 1
+  buildPreprocessEnabled: 1
+  mostPopularCountryOfUsers: BR
   multiDexEnabled: 1
   permissionAdIdRemoved: 0
-  mostPopularCountryOfUsers: BR
+  exoPlayerIncluded: 1
+  generateAndroidQuerriesForPromo: 1
+  updateGradlePluginVersion: 1
+  generateIOSDeepLinksForPromo: 1
   attributionReportEndpoint: https://postbacks-app.com
   userTrackingUsageDescription: []

@@ -19,6 +19,9 @@
         maven {
             url "https://sdk.tapjoy.com/" // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:31
         }
+        maven {
+            url "https://aa-sdk.s3-eu-west-1.amazonaws.com/android_repo" // Assets/CleverAdsSolutions/Editor/CASAndroidSuperAwesomeDependencies.xml:8, Assets/CleverAdsSolutions/Editor/CASAndroidSuperAwesomeDependencies.xml:13
+        }
         mavenLocal()
         mavenCentral()
     }
@@ -30,19 +33,26 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
-    implementation 'com.adcolony:sdk:4.6.5+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:12
-    implementation 'com.applovin:applovin-sdk:11.2.2+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:14
-    implementation 'com.cleveradssolutions:cas:2.6.6' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:4
-    implementation 'com.cleveradssolutions:mintegral:16.0.21.0' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:21
-    implementation 'com.facebook.android:audience-network-sdk:6.8.0+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:16
-    implementation 'com.google.android.gms:play-services-ads:20.6.0+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:5
-    implementation 'com.inmobi.monetization:inmobi-ads:10.0.3+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:15
-    implementation 'com.ironsource.sdk:mediationsdk:7.2.1+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:11
-    implementation 'com.my.target:mytarget-sdk:5.15.0+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:32
-    implementation 'com.pangle.global:ads-sdk:4.2.5.2' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:26
-    implementation 'com.tapjoy:tapjoy-android-sdk:12.9.1' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:31
-    implementation 'com.unity3d.ads:unity-ads:4.0.1+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:6
-    implementation 'com.vungle:publisher-sdk-android:6.10.4+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:13
+    implementation 'com.adcolony:sdk:4.7.1+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:12
+    implementation 'com.applovin:applovin-sdk:11.4.2+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:14
+    implementation 'com.chartboost:chartboost-sdk:8.4.3' // Assets/CleverAdsSolutions/Editor/CASAndroidChartboostDependencies.xml:5
+    implementation 'com.cleveradssolutions:cas:2.8.1' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:4
+    implementation 'com.cleveradssolutions:chartboost:8.4.3.0' // Assets/CleverAdsSolutions/Editor/CASAndroidChartboostDependencies.xml:4
+    implementation 'com.cleveradssolutions:kidoz:8.9.7.0' // Assets/CleverAdsSolutions/Editor/CASAndroidKidozDependencies.xml:4
+    implementation 'com.cleveradssolutions:mintegral:16.1.21.0' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:21
+    implementation 'com.cleveradssolutions:superawesome:8.3.3.0' // Assets/CleverAdsSolutions/Editor/CASAndroidSuperAwesomeDependencies.xml:8
+    implementation 'com.cleveradssolutions:yandex:5.1.0.0' // Assets/CleverAdsSolutions/Editor/CASAndroidYandexAdsDependencies.xml:4
+    implementation 'com.facebook.android:audience-network-sdk:6.11.0+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:16
+    implementation 'com.google.android.gms:play-services-ads:21.0.0' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:5
+    implementation 'com.inmobi.monetization:inmobi-ads:10.0.7' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:15
+    implementation 'com.ironsource.sdk:mediationsdk:7.2.2' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:11
+    implementation 'com.my.target:mytarget-sdk:5.15.0' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:32
+    implementation 'com.pangle.global:ads-sdk:4.5.0.3' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:26
+    implementation 'com.tapjoy:tapjoy-android-sdk:12.10.0' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:31
+    implementation 'com.unity3d.ads:unity-ads:4.2.1+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:6
+    implementation 'com.vungle:publisher-sdk-android:6.11.0+' // Assets/CleverAdsSolutions/Editor/CASAndroidOptimalAdsDependencies.xml:13
+    implementation 'com.yandex.android:mobileads:5.1.0' // Assets/CleverAdsSolutions/Editor/CASAndroidYandexAdsDependencies.xml:5
+    implementation 'tv.superawesome.sdk.publisher:superawesome:8.3.3' // Assets/CleverAdsSolutions/Editor/CASAndroidSuperAwesomeDependencies.xml:13
 // Android Resolver Dependencies End
 **DEPS**}
 
