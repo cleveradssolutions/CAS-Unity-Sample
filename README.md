@@ -1,8 +1,8 @@
 # CleverAdsSolutions-Unity Sample
 The Clever Ads Solutions Unity plugin enables Unity developers to easily serve Mobile Ads on Android and iOS apps without having to write Java or Objective-C code. The plugin provides a C# interface for requesting ads that is used by C# scripts in your Unity project.
 
-- Unity Editor implementation on scene `Assets/NoCodeSample.unity`.  
-- Implementation from script on scene `Assets/Sample.unity` and script `Assets/SampleController.cs`.
+- Unity Editor implementation is found in folder `Assets/SampleComponentsOnly`.  
+- C# implementation is found in folder `Assets/SampleCSharp.
 
 ## Documentation
 Check out our [documentation](https://github.com/cleveradssolutions/CAS-Unity/wiki) on using the CAS SDK.
