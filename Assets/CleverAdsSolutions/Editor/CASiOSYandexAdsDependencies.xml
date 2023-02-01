@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dependencies>
-  <iosPods>
-    <iosPod name="CleverAdsSolutions-SDK/YandexAds" version="2.8.1"/>
-    <iosPod name="YandexMobileAds" version="5.0.2"/>
-  </iosPods>
-</dependencies>

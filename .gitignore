@@ -4,6 +4,7 @@
 /Logs/
 /Builds/
 /Debug/
+/.idea/
 /.vs/
 /.vscode/
 /*.csproj

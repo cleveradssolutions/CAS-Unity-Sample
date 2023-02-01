@@ -21,7 +21,6 @@ MonoBehaviour:
   bannerRefresh: 30
   interstitialInterval: 30
   loadingMode: 2
-  debugMode: 0
+  debugMode: 1
   trackLocationEnabled: 0
-  analyticsCollectionEnabled: 0
-  interWhenNoRewardedAd: 0
+  interWhenNoRewardedAd: 1

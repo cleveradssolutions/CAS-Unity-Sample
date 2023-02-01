@@ -286,7 +286,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: SetBannerPosition
         m_Mode: 3
         m_Arguments:
@@ -365,7 +365,6 @@ RectTransform:
   m_Children:
   - {fileID: 145217694}
   - {fileID: 1619377972}
-  - {fileID: 1969423830}
   m_Father: {fileID: 1794689322}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -484,7 +483,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: SetBannerPosition
         m_Mode: 3
         m_Arguments:
@@ -617,7 +616,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: ShowBanner
         m_Mode: 1
         m_Arguments:
@@ -750,7 +749,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: SetBannerSize
         m_Mode: 3
         m_Arguments:
@@ -883,7 +882,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: SetBannerPosition
         m_Mode: 3
         m_Arguments:
@@ -1400,7 +1399,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: ShowInterstitial
         m_Mode: 1
         m_Arguments:
@@ -1563,10 +1562,10 @@ RectTransform:
   m_Father: {fileID: 1814783814}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.16925003}
-  m_AnchorMax: {x: 1, y: 0.8722501}
-  m_AnchoredPosition: {x: 0, y: -32.5}
-  m_SizeDelta: {x: 0, y: 65}
+  m_AnchorMin: {x: 0, y: 0.18}
+  m_AnchorMax: {x: 1, y: 0.82}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &426798931
 MonoBehaviour:
@@ -2260,7 +2259,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: SetBannerPosition
         m_Mode: 3
         m_Arguments:
@@ -2393,7 +2392,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: SetBannerPosition
         m_Mode: 3
         m_Arguments:
@@ -2604,7 +2603,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ENABLE
+  m_Text: DISABLED
 --- !u!222 &900214514
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2721,7 +2720,6 @@ RectTransform:
   m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
   m_Children:
   - {fileID: 1268385518}
-  - {fileID: 1399135103}
   m_Father: {fileID: 1794689322}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2905,8 +2903,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 681.2584, y: -100.79999}
-  m_SizeDelta: {x: 203.48334, y: 40}
+  m_AnchoredPosition: {x: 0, y: -100.79999}
+  m_SizeDelta: {x: -0.000061035156, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1266220575
 MonoBehaviour:
@@ -3034,7 +3032,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: ChangeAppReturnState
         m_Mode: 1
         m_Arguments:
@@ -3167,7 +3165,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: SetBannerSize
         m_Mode: 3
         m_Arguments:
@@ -3359,85 +3357,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!1 &1399135102
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1399135103}
-  - component: {fileID: 1399135105}
-  - component: {fileID: 1399135104}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1399135103
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1399135102}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1159411213}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1399135104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1399135102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: DISABLED
---- !u!222 &1399135105
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1399135102}
-  m_CullTransparentMesh: 0
 --- !u!1 &1445072971
 GameObject:
   m_ObjectHideFlags: 0
@@ -3522,7 +3441,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: ShowRewarded
         m_Mode: 1
         m_Arguments:
@@ -3877,7 +3796,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: SetBannerSize
         m_Mode: 3
         m_Arguments:
@@ -4089,7 +4008,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: HideBanner
         m_Mode: 1
         m_Arguments:
@@ -4530,7 +4449,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1794689322}
-  - component: {fileID: 1794689323}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -4568,23 +4486,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 30, y: 0}
+  m_SizeDelta: {x: -60, y: 800}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &1794689323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794689321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
-  m_VerticalFit: 2
 --- !u!1 &1814783809
 GameObject:
   m_ObjectHideFlags: 0
@@ -4614,16 +4518,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1814783809}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 027e9c43e31b44cfeb921ab221c73210, type: 3}
+  m_Script: {fileID: 11500000, guid: 8da7367c37d1246c89e8aab9b3f09b4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userConsent: 0
-  userCCPAStatus: 0
   versionText: {fileID: 385965758}
-  bannerStatus: {fileID: 1969423832}
   interstitialStatus: {fileID: 2088074461}
   rewardedStatus: {fileID: 1475870396}
-  appReturnStatus: {fileID: 1399135104}
   appReturnButtonText: {fileID: 900214513}
 --- !u!114 &1814783811
 MonoBehaviour:
@@ -4788,8 +4688,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2099481162}
   m_HandleRect: {fileID: 2099481161}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.64
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4893,85 +4793,6 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
---- !u!1 &1969423829
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1969423830}
-  - component: {fileID: 1969423831}
-  - component: {fileID: 1969423832}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1969423830
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969423829}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 113878481}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1969423831
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969423829}
-  m_CullTransparentMesh: 0
---- !u!114 &1969423832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969423829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: status banner
 --- !u!1 &1987911947
 GameObject:
   m_ObjectHideFlags: 0
@@ -5056,7 +4877,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: SetBannerSize
         m_Mode: 3
         m_Arguments:
@@ -5189,7 +5010,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: SetBannerPosition
         m_Mode: 3
         m_Arguments:
@@ -5645,7 +5466,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1814783810}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: CSharpSampleController, Assembly-CSharp
         m_MethodName: SetBannerSize
         m_Mode: 3
         m_Arguments:
