@@ -18,14 +18,13 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
-    implementation 'com.cleveradssolutions:cas-sdk:3.0.0' // Packages/com.cleversolutions.ads.unity/Editor/CASAndroidBaseDependencies.xml:4
+    implementation 'com.cleveradssolutions:cas-sdk:3.1.7' // Packages/com.cleversolutions.ads.unity/Editor/CASAndroidBaseDependencies.xml:4
 // Android Resolver Dependencies End
 **DEPS**}
 
 // Android Resolver Exclusions Start
 android {
   packagingOptions {
-      exclude ('/lib/arm64-v8a/*' + '*')
       exclude ('/lib/armeabi/*' + '*')
       exclude ('/lib/mips/*' + '*')
       exclude ('/lib/mips64/*' + '*')
