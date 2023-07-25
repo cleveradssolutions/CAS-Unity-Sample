@@ -4,7 +4,6 @@ apply plugin: 'com.android.application'
 
 dependencies {
     implementation project(':unityLibrary')
-    implementation 'androidx.multidex:multidex:2.0.1' // Added by CAS settings
     }
 
 android {
@@ -17,7 +16,6 @@ android {
     }
 
     defaultConfig {
-        multiDexEnabled true // Enabled by CAS settings
         minSdkVersion **MINSDKVERSION**
         targetSdkVersion **TARGETSDKVERSION**
         applicationId '**APPLICATIONID**'

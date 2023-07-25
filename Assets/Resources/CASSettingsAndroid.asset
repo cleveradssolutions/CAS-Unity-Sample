@@ -16,7 +16,7 @@ MonoBehaviour:
   managerIds:
   - demo
   allowedAdFlags: 7
-  audienceTagged: 2
+  audienceTagged: 0
   bannerSize: 0
   bannerRefresh: 30
   interstitialInterval: 30
