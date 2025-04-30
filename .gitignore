@@ -17,5 +17,7 @@
 *.apk
 *.aab
 *.7z
-*.meta
 /Packages/packages-lock.json
+/ExportedPackages/
+/Assets/Develop/
+/Assets/Develop.meta

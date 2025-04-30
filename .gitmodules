@@ -1,0 +1,3 @@
+[submodule "Assets/CleverAdsSolutions"]
+	path = Assets/CleverAdsSolutions
+	url = https://github.com/cleveradssolutions/CAS-Unity.git
