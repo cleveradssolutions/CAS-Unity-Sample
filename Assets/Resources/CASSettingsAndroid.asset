@@ -22,5 +22,5 @@ MonoBehaviour:
   interstitialInterval: 30
   loadingMode: 2
   debugMode: 0
-  trackLocationEnabled: 0
+  trackLocationEnabled: 1
   interWhenNoRewardedAd: 0
