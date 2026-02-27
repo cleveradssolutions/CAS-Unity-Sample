@@ -46,15 +46,26 @@ namespace CAS.UEditor
         [MenuItem("Release/SK AdNetworks list", priority = 101)]
         public static void CopySKAdNetworkList()
         {
-            var itemsFile = Path.Combine(GetNativeRepoDir(BuildTarget.iOS), "PublicSamplesRepo", "SKAdNetworkCompact.txt");
+            var itemsFile = Path.Combine(GetNativeRepoDir(BuildTarget.iOS), "PublicSamplesRepo", "AdNetworkIdentifiers", "SKAdNetworkCompact.txt");
             if (File.Exists(itemsFile))
             {
                 File.Copy(itemsFile, casUnityRepoPath + "/Editor/BuildConfig/CASSKAdNetworks.txt", true);
+                Debug.Log("Copy file: " + itemsFile);
             }
             else
             {
-                Debug.LogError("File not found: " + itemsFile +
-                    "\nYou can change path to files in `Release/Custom settings` asset.");
+                Debug.LogError("File not found: " + itemsFile);
+            }
+
+            itemsFile = Path.Combine(GetNativeRepoDir(BuildTarget.iOS), "PublicSamplesRepo", "AdNetworkIdentifiers", "AdNetworkCompact.txt");
+            if (File.Exists(itemsFile))
+            {
+                File.Copy(itemsFile, casUnityRepoPath + "/Editor/BuildConfig/CASAttAdNetworks.txt", true);
+                Debug.Log("Copy file: " + itemsFile);
+            }
+            else
+            {
+                Debug.LogError("File not found: " + itemsFile);
             }
         }
 
