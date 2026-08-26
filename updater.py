@@ -10,11 +10,12 @@ Commands:
            from the latest CHANGELOG.md entry.
 
 Usage:
-  1. python updater.py new
-  2. (optional) python updater.py dll
+  1. python3 updater.py new
+  2. python3 updater.py dll
   3. Do changes and update CHANGELOG.md
-  4. python updater.py release
-  5. Check and publish release on Github
+  4. Commit changes
+  5. python3 updater.py release
+  6. Check and publish release on Github
 
 Requirements:
   - gh CLI installed:  brew install gh && gh auth login     (release command)
@@ -499,7 +500,6 @@ if __name__ == "__main__":
         version, notes = _read_latest_changelog()
         load_dotenv()
         unity_exe = find_unity_exe()
-        build_common_dll(unity_exe)
         
         check_submodule_clean()
         create_github_release(version, notes, [
