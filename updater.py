@@ -54,7 +54,7 @@ DIST_DIR = os.path.join(PROJECT_DIR, "ExportedPackages")
 CHANGELOG_PATH = os.path.join(PACKAGE_DIR, "CHANGELOG.md")
 
 ROOT_REPOS_DIR = os.path.dirname(PROJECT_DIR)
-TARGET_IOS_VERSION = "13.0"
+TARGET_IOS_VERSION = "15.0"
 UPM_INSTALL_URL = "https://cdn.packages.unity.com/upm-cli/install.sh"
 UPM_BIN = os.path.join(os.path.expanduser("~"), ".upm", "bin")
 GITHUB_REPOS = 'https://github.com/cleveradssolutions/CAS-'
@@ -74,8 +74,11 @@ def find_unity_exe() -> str:
     """Return path to Unity binary. Checks UNITY_EXE env var first, then
     derives the path from ProjectSettings/ProjectVersion.txt."""
     exe = os.environ.get("UNITY_EXE", "")
-    if exe and os.path.isfile(exe):
-        return exe
+    if exe:
+        if os.path.isfile(exe):
+            return exe
+        print(f"WARNING: UNITY_EXE is set but file not found: {exe}\n"
+              "  Falling back to auto-detection.", file=sys.stderr)
 
     version_file = os.path.join(
         PROJECT_DIR, "ProjectSettings", "ProjectVersion.txt")
@@ -121,18 +124,22 @@ def find_unity_exe() -> str:
 
 
 def build_common_dll(unity_exe):
-    # Unity.app/Contents/MacOS/Unity -> Unity.app/Contents/Managed/UnityEngine.dll
-    unity_engine_dll = os.path.join(
-        os.path.dirname(os.path.dirname(unity_exe)
-                        ), "Managed", "UnityEngine.dll"
-    )
+    # Unity.app/Contents/MacOS/Unity -> Unity.app/Contents/Managed
+    managed_dir = os.path.join(
+        os.path.dirname(os.path.dirname(unity_exe)), "Managed")
     csproj = os.path.join(
         PACKAGE_DIR, "Source~", "CleverAdsSolutions.Common", "CleverAdsSolutions.Common.csproj"
     )
+    # csproj compiles Source\**\*.cs, so new files need no csproj changes
     subprocess.run(
-        ["msbuild", csproj,
-            f"/p:ReferencePath={os.path.dirname(unity_engine_dll)}"],
-        check=True,
+        ["msbuild", csproj, f"/p:ReferencePath={managed_dir}"], check=True)
+
+    # Force-add sources from Source~ (ignored by the global '*~' rule).
+    # Git pathspec '*' also matches '/', so subfolders are included.
+    subprocess.run(
+        ["git", "-C", PACKAGE_DIR, "add", "-f", "--",
+            "Source~/CleverAdsSolutions.Common/Source/*.cs"],
+        check=True
     )
 
 
@@ -445,7 +452,6 @@ def add_changelog_entry(version: str):
         content[:header_end] + "\n" + entry + content[header_end:])
     print(f"Added changelog entry for {version}")
 
-
 def check_submodule_clean():
     result = subprocess.run(
         ["git", "-C", PACKAGE_DIR, "status", "--porcelain"],
@@ -488,6 +494,7 @@ if __name__ == "__main__":
         "release", help="Create a GitHub release from latest CHANGELOG entry")
 
     args = parser.parse_args()
+    load_dotenv()
     if args.command == "new":
         update_dependencies()
         copy_sk_adnetwork_list()
@@ -498,9 +505,8 @@ if __name__ == "__main__":
         build_common_dll(unity_exe)
     elif args.command == "release":
         version, notes = _read_latest_changelog()
-        load_dotenv()
         unity_exe = find_unity_exe()
-        
+
         check_submodule_clean()
         create_github_release(version, notes, [
             pack_unity_package(unity_exe, version),
