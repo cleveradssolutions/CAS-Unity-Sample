@@ -323,10 +323,6 @@ def update_dependencies():
     root_el = ET.Element("dependencies")
 
     android_pkgs = ET.SubElement(root_el, "androidPackages")
-    if "-" in android_version:
-        repos = ET.SubElement(android_pkgs, "repositories")
-        ET.SubElement(
-            repos, "repository").text = "https://repo.repsy.io/mvn/cleveradssolutions/beta"
     _write_android_dep(
         android_pkgs, "com.cleveradssolutions:cas-sdk:", android_version)
     _write_android_dep(
